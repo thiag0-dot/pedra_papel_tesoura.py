@@ -13,7 +13,7 @@ def converter(jogada):
         return "tesoura"
     
 
-jogada_jogador = str(input("Escolha um desses para jogar!\n [1]->Para Pedra \n [2]->Para Papel \n [3]->Para Tesoura \n Escolha:"))
+jogada_jogador = input("Escolha um desses para jogar!\n [1]->Para Pedra \n [2]->Para Papel \n [3]->Para Tesoura \n Escolha:")
 jogada_computador = random.choice(['1', '2', '3'])
 if(int(jogada_jogador) > 3):
     print("Digite certo!")
